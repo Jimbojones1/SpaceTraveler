@@ -2,12 +2,18 @@
 <h2 class="contactform">Fly With Us</h2>
   <form name="hongkiat" id="hongkiat-form" method="post" action="#">
       <div id="wrapping" class="clearfix">
+        <div class="backgroundform">
           <section id="aligned">
               <input type="text" name="name" id="name" placeholder="Your name" autocomplete="off" tabindex="1" class="txtinput">
               <input type="email" name="email" id="email" placeholder="Your e-mail address" autocomplete="off" tabindex="2" class="txtinput">
               <input type="tel" name="telephone" id="telephone" placeholder="Phone number?(optional)" tabindex="3" class="txtinput">
               <textarea name="message" id="message" placeholder="Drop a thought on us..." tabindex="4" class="txtblock"></textarea>
+              <input type="reset" name="reset" id="resetbtn" class="contactbtn" value="Reset">
+              <input type="submit" name="submit" id="submitbtn" class="contactbtn" tabindex="7" value="Contact Will Be Made">
+              <br style="clear:both;">
           </section>
+        </div>
+        <div class="backgroundformright">
           <section id="aside" class="clearfix">
           <section id="locationCase">
           <h3>Location:</h3>
@@ -18,8 +24,6 @@
                 <option value="city">Sapporo</option>
               </select>
           </section>
-          <input type="reset" name="reset" id="resetbtn" class="resetbtn" value="Reset">
-            <input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="7" value="Contact Will Be Made">
-            <br style="clear:both;">
         </section>
+      </div>
     </form>

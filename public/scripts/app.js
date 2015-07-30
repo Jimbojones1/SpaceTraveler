@@ -1,16 +1,7 @@
 $(document).ready(function () {
 
   console.log('everything is loaded');
-//carousel plugin
-  $('.pics').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    dots: true,
-    arrows: false,
-    fade: true,
-    autoplaySpeed: 1000,
-  });
+
   //jquery fade in
   $(".mainTitle").hide().fadeIn(5000);
   $(".indexSection").hide().fadeIn(5500);
@@ -25,6 +16,19 @@ $(document).ready(function () {
 //end of document.ready
 
   //this is my app's namspace so I don't collide with the global scope
+  //carousel plugin
+
+
+
+    $('.pics').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      dots: true,
+      arrows: false,
+      fade: true,
+      autoplaySpeed: 1000,
+    });
 
   var app = app || {};
 
