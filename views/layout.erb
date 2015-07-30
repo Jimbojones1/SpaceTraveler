@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SpaceTravel</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/slick.css">
+    <link rel="stylesheet" href="/styles/slick-theme.css">
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans:700|Arvo:400,700italic' rel='stylesheet' type='text/css'>
+
+
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/images">images</a>
+          <a href="/pricing">pricing</a>
+          <a href="/contact">contact</a>
+        </nav>
+
+      </header>
+
+
+        <%= yield %>
+
+
+      <footer>&copy; DarkStar productions</footer>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/slick.js"></script>
+    <script src="/scripts/slick.min.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
